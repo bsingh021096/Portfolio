@@ -37,10 +37,7 @@ const About = () => {
                 real-world data challenges.
               </p>
               <p className="text-lg text-gray-600">
-                I specialize in React, Node.js, and cloud technologies, with a strong emphasis on
-                writing clean, maintainable code and building user-friendly interfaces. When I'm not
-                coding, you can find me contributing to open-source projects or mentoring junior
-                developers.
+                
               </p>
             </div>
           </div>
