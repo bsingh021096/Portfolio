@@ -29,10 +29,12 @@ const About = () => {
             <div>
               <h1 className="text-4xl font-bold text-gray-900 mb-6">About Me</h1>
               <p className="text-lg text-gray-600 mb-6">
-                I'm a passionate Full Stack Developer with over 8 years of experience in building
-                scalable web applications. My journey in tech started with a curiosity about how
-                things work on the internet, and it has evolved into a career focused on creating
-                exceptional digital experiences.
+                With expertise in machine learning, data analytics, and cloud computing, 
+                I have led projects in data visualization, predictive modeling, and NLP, 
+                transforming complex data into actionable insights. My experience as a 
+                Graduate Research Assistant, combined with published research, 
+                highlights my strong technical foundation and analytical mindset for solving 
+                real-world data challenges.
               </p>
               <p className="text-lg text-gray-600">
                 I specialize in React, Node.js, and cloud technologies, with a strong emphasis on
