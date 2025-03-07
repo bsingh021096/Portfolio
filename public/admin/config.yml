@@ -1,0 +1,48 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Image", name: "image", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Duration", name: "duration", widget: "string" }
+      - { label: "Technologies", name: "technologies", widget: "list" }
+      - { label: "Challenges", name: "challenges", widget: "list" }
+      - { label: "Solutions", name: "solutions", widget: "list" }
+      - { label: "Metrics", name: "metrics", widget: "list" }
+      - { label: "GitHub URL", name: "githubUrl", widget: "string" }
+      - { label: "Live URL", name: "liveUrl", widget: "string" }
+
+  - name: "certifications"
+    label: "Certifications"
+    folder: "content/certifications"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Issuer", name: "issuer", widget: "string" }
+      - { label: "Date", name: "date", widget: "string" }
+      - { label: "Credential ID", name: "credentialId", widget: "string" }
+      - { label: "Verification URL", name: "verificationUrl", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Skills", name: "skills", widget: "list" }
+      - { label: "Image", name: "image", widget: "string" }
+
+  - name: "experience"
+    label: "Experience"
+    folder: "content/experience"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Company", name: "company", widget: "string" }
+      - { label: "Duration", name: "duration", widget: "string" }
+      - { label: "Description", name: "description", widget: "list" }
