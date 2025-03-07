@@ -22,7 +22,7 @@ const Home = () => {
                 transition={{ delay: 0.2 }}
                 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6"
               >
-                Hi, I'm John Doe
+                Hi, I'm Bhavya Singh
               </motion.h1>
               <motion.p
                 initial={{ y: 20, opacity: 0 }}
